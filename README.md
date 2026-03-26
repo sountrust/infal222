@@ -4,7 +4,7 @@
 
 Bienvenue sur le dépôt du cours **INFAL 222**.
 
-Ce dépôt contient les **sources Markdown** du cours, des CM, des TD et des exercices. La documentation est publiée en **HTML via GitHub Pages**, ce qui permet une consultation plus confortable qu’un ensemble de fichiers binaires lourds à maintenir.
+Ce dépôt contient les **sources Markdown** du cours, des CM, des TD et des exercices. La documentation est publiée en **HTML via GitHub Pages**, ce qui permet une consultation plus confortable qu’un ensemble de fichiers binaires à maintenir.
 
 ## Accès rapide
 
@@ -26,52 +26,54 @@ Le dépôt suit une logique de progression pédagogique :
 
 ## Lecture rapide depuis GitHub
 
+Les sources pédagogiques utilisées par Sphinx sont conservées dans `docs/source/`.
+
 ### Supports généraux
 
-- [Cours principal](cours.md)
-- [CM — OSPF et ECMP](CM-OSPF.md)
-- [CM — BGP](CM-BGP.md)
-- [CM — HSRP, VRRP, GLBP, SDN et SD-WAN](CM-HSRP-VRRP.md)
+- [Cours principal](docs/source/cours.md)
+- [CM — OSPF et ECMP](docs/source/CM-OSPF.md)
+- [CM — BGP](docs/source/CM-BGP.md)
+- [CM — HSRP, VRRP, GLBP, SDN et SD-WAN](docs/source/CM-HSRP-VRRP.md)
 
 ### Travaux dirigés
 
-- [TD6 — Préparation d’une infrastructure cohérente](TD6.md)
-- [TD7 — Interconnexion, OSPF et ECMP](TD7.md)
-- [PREP-TD8 — Migration vers un trunk de transit](PREP-TD8.md)
-- [TD8 — WAN simulé, NAT centralisé et route par défaut via OSPF](TD8.md)
-- [TD9 — Redondance WAN et découverte de l’eBGP](TD9.md)
-- [TD10 — Refonte du plan VLAN, mutualisation et HSRP](TD10.md)
+- [TD6 — Préparation d’une infrastructure cohérente](docs/source/TD6.md)
+- [TD7 — Interconnexion, OSPF et ECMP](docs/source/TD7.md)
+- [PREP-TD8 — Migration vers un trunk de transit](docs/source/PREP-TD8.md)
+- [TD8 — WAN simulé, NAT centralisé et route par défaut via OSPF](docs/source/TD8.md)
+- [TD9 — Redondance WAN et découverte de l’eBGP](docs/source/TD9.md)
+- [TD10 — Refonte du plan VLAN, mutualisation et HSRP](docs/source/TD10.md)
 
 ### Exercices et compléments
 
-- [Exercice — Architecture convergente](exo_convergence.md)
-- [Exercice — Introduction au SDN](exo_sdn.md)
-- [Lab — VXLAN, datacenter et SDN](lab_vxlan_dc_sdn.md)
+- [Exercice — Architecture convergente](docs/source/exo_convergence.md)
+- [Exercice — Introduction au SDN](docs/source/exo_sdn.md)
+- [Lab — VXLAN, datacenter et SDN](docs/source/lab_vxlan_dc_sdn.md)
 
 ## Structure du dépôt
 
 ```text
 .
 ├── README.md
-├── cours.md
-├── CM-BGP.md
-├── CM-OSPF.md
-├── CM-HSRP-VRRP.md
-├── TD6.md
-├── TD7.md
-├── PREP-TD8.md
-├── TD8.md
-├── TD9.md
-├── TD10.md
-├── exo_convergence.md
-├── exo_sdn.md
-├── lab_vxlan_dc_sdn.md
 ├── docs/
 │   ├── requirements.txt
 │   ├── Makefile
 │   ├── source/
 │   │   ├── conf.py
-│   │   └── index.md
+│   │   ├── index.md
+│   │   ├── cours.md
+│   │   ├── CM-BGP.md
+│   │   ├── CM-OSPF.md
+│   │   ├── CM-HSRP-VRRP.md
+│   │   ├── TD6.md
+│   │   ├── TD7.md
+│   │   ├── PREP-TD8.md
+│   │   ├── TD8.md
+│   │   ├── TD9.md
+│   │   ├── TD10.md
+│   │   ├── exo_convergence.md
+│   │   ├── exo_sdn.md
+│   │   └── lab_vxlan_dc_sdn.md
 │   └── build/   # ignoré par git
 └── .github/
     └── workflows/
