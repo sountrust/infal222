@@ -1,4 +1,4 @@
-![Docs](https://github.com/<utilisateur>/<nom-du-depot>/actions/workflows/docs-pages.yml/badge.svg)
+![Docs](https://github.com/sountrust/infal222/actions/workflows/docs-pages.yml/badge.svg)
 
 # INFAL 222 – Administration avancée des réseaux étendus
 
@@ -132,7 +132,7 @@ Vous pouvez l’utiliser, le modifier et le partager **à des fins non commercia
 
 Le support de cours est publié en HTML via GitHub Pages.
 
-- **Consulter le cours en ligne** : [Documentation HTML](https://<utilisateur>.github.io/<nom-du-depot>/)
+- **Consulter le cours en ligne** : [Documentation HTML](https://sountrust.github.io/infal222/)
 - **Téléchargements** : les artefacts HTML et PDF sont disponibles dans l’onglet **Actions** du dépôt après chaque build.
 
 ---
