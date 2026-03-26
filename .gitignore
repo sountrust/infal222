@@ -1,0 +1,34 @@
+## Contenus non publiés
+correction/
+administration/
+
+## macOS
+.DS_Store
+
+## Documents bureautiques
+*.docx
+
+## Environnement Python
+.venv/
+__pycache__/
+*.pyc
+
+## direnv
+.direnv/
+
+## Build Sphinx
+docs/build/
+
+## Fichiers LaTeX temporaires
+*.aux
+*.fdb_latexmk
+*.fls
+*.idx
+*.ilg
+*.ind
+*.lof
+*.log
+*.lot
+*.out
+*.toc
+*.xdv
